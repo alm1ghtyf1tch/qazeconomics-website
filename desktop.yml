@@ -1,0 +1,208 @@
+- generic [active] [ref=e1] [box=0,0,1440,4993]:
+  - generic [ref=e2] [box=0,0,1440,4993]:
+    - banner [ref=e3] [box=0,0,1440,65]:
+      - navigation "Main navigation" [ref=e4] [box=80,0,1280,64]:
+        - link "QazEconomics" [ref=e5] [cursor=pointer] [box=112,19,121,27]:
+          - /url: /
+        - generic [ref=e6] [box=508,22,412,20]:
+          - link "Articles" [ref=e7] [cursor=pointer] [box=508,22,50,20]:
+            - /url: /articles
+          - link "Events" [ref=e8] [cursor=pointer] [box=587,22,44,20]:
+            - /url: /events
+          - link "For students" [ref=e9] [cursor=pointer] [box=659,22,83,20]:
+            - /url: /for-students
+          - link "About us" [ref=e10] [cursor=pointer] [box=770,22,58,20]:
+            - /url: /about-us
+          - link "Volunteer" [ref=e11] [cursor=pointer] [box=856,22,64,20]:
+            - /url: /volunteer
+        - link "Join the team" [ref=e12] [cursor=pointer] [box=1195,12,133,40]:
+          - /url: /volunteer
+    - main [ref=e13] [box=0,65,1440,4820]:
+      - generic [ref=e15] [box=80,65,1280,936]:
+        - generic [ref=e16] [box=112,336,619,394]:
+          - paragraph [ref=e17] [box=112,336,214,38]: Youth economics education
+          - heading "Economics for young thinkers." [level=1] [ref=e18] [box=112,394,619,168]
+          - paragraph [ref=e19] [box=112,586,576,64]: QazEconomics shares finance and economics knowledge, current economic issues in Kazakhstan and student opportunities.
+          - generic [ref=e20] [box=112,682,619,48]:
+            - link "Explore articles" [ref=e21] [cursor=pointer] [box=112,682,161,48]:
+              - /url: /articles
+            - link "View events" [ref=e22] [cursor=pointer] [box=285,682,139,48]:
+              - /url: /events
+        - generic [ref=e23] [box=771,231,557,604]:
+          - generic [ref=e25] [box=803,263,493,540]:
+            - generic [ref=e26] [box=827,287,445,60]:
+              - generic [ref=e27] [box=827,287,294,60]:
+                - paragraph [ref=e28] [box=827,287,294,20]: Kazakhstan economy
+                - heading "Ideas, events and resources" [level=2] [ref=e29] [box=827,315,294,32]
+              - generic [ref=e30] [box=1216,287,56,24]: Learn
+            - generic [ref=e32] [box=848,400,403,292]:
+              - generic [ref=e37] [box=1201,670,50,16]: Quantity
+              - generic [ref=e38] [box=858,400,30,16]: Price
+            - generic [ref=e39] [box=827,733,445,46]:
+              - generic [ref=e40] [box=827,733,140,46]: Articles
+              - generic [ref=e41] [box=979,733,140,46]: Olympiads
+              - generic [ref=e42] [box=1132,733,140,46]: Volunteering
+          - generic [ref=e43] [box=751,703,176,164]:
+            - paragraph [ref=e44] [box=771,723,136,20]: Exam skill
+            - paragraph [ref=e45] [box=771,775,136,72]: open access
+      - generic [ref=e47] [box=80,1097,1280,780]:
+        - generic [ref=e48] [box=112,1097,672,204]:
+          - heading "Articles on theory and real economies." [level=2] [ref=e49] [box=112,1097,672,120]
+          - paragraph [ref=e50] [box=112,1237,672,64]: Browse the published archive by topic, with full article pages and the original author and date information where available.
+        - generic [ref=e51] [box=112,1341,1216,470]:
+          - article [ref=e52] [box=113,1342,1214,117]:
+            - generic [ref=e53] [box=141,1370,962,60]:
+              - paragraph [ref=e54] [box=141,1370,962,20]: World economy
+              - heading [level=3] [ref=e55] [box=141,1398,962,32]:
+                - link "How Does Monetary Policy Work?" [ref=e56] [cursor=pointer] [box=141,1398,358,31]:
+                  - /url: /articles/how-does-monetary-policy-work
+            - paragraph [ref=e57] [box=1119,1370,180,60]: Diana Baizhanova
+          - article [ref=e58] [box=113,1459,1214,117]:
+            - generic [ref=e59] [box=141,1487,962,60]:
+              - paragraph [ref=e60] [box=141,1487,962,20]: World economy
+              - heading [level=3] [ref=e61] [box=141,1515,962,32]:
+                - link "Minimum wages are rising around the world" [ref=e62] [cursor=pointer] [box=141,1515,459,31]:
+                  - /url: /articles/minimum-wages-are-rising-around-the-world
+            - paragraph [ref=e63] [box=1119,1487,180,60]: Diana Baizhanova
+          - article [ref=e64] [box=113,1576,1214,117]:
+            - generic [ref=e65] [box=141,1604,962,60]:
+              - paragraph [ref=e66] [box=141,1604,962,20]: Economic theory
+              - heading [level=3] [ref=e67] [box=141,1632,962,32]:
+                - link "Dealing with air pollution in different countries" [ref=e68] [cursor=pointer] [box=141,1632,485,31]:
+                  - /url: /articles/dealing-with-air-pollution-in-different-countries
+            - paragraph [ref=e69] [box=1119,1604,180,60]: Diana Baizhanova
+          - article [ref=e70] [box=113,1693,1214,117]:
+            - generic [ref=e71] [box=141,1721,962,60]:
+              - paragraph [ref=e72] [box=141,1721,962,20]: Economy of Kazakhstan
+              - heading [level=3] [ref=e73] [box=141,1749,962,32]:
+                - link "Inflation Soars in Kazakhstan" [ref=e74] [cursor=pointer] [box=141,1749,308,31]:
+                  - /url: /articles/inflation-soars-in-kazakhstan
+            - paragraph [ref=e75] [box=1119,1721,180,60]: Aiana Zhulmukhambetova
+        - link "View all articles" [ref=e76] [cursor=pointer] [box=112,1835,148,42]:
+          - /url: /articles
+      - generic [ref=e78] [box=80,2069,1280,713]:
+        - generic [ref=e79] [box=112,2069,672,144]:
+          - heading "Completed economics events." [level=2] [ref=e80] [box=112,2069,672,60]
+          - paragraph [ref=e81] [box=112,2149,672,64]: Explore the published archive of QazEconomics olympiads and their historical event information.
+        - generic [ref=e82] [box=112,2253,1216,463]:
+          - article [ref=e83] [box=112,2253,395,463]:
+            - generic [ref=e84] [box=144,2285,331,147]:
+              - paragraph [ref=e85] [box=144,2285,331,20]: 24 July–5 August 2025
+              - heading [level=3] [ref=e86] [box=144,2321,331,75]:
+                - link "Major Economics Olympiad (MEO)" [ref=e87] [cursor=pointer] [box=144,2320,229,77]:
+                  - /url: /events/major-economics-olympiad-meo
+              - paragraph [ref=e88] [box=144,2408,331,24]: Astana, Kazakhstan
+            - list [ref=e89] [box=144,2472,331,212]:
+              - listitem [ref=e90] [box=144,2472,331,36]: 6 countries
+              - listitem [ref=e91] [box=144,2516,331,36]: 19 cities
+              - listitem [ref=e92] [box=144,2560,331,36]: 345 participants
+              - listitem [ref=e93] [box=144,2604,331,36]: 104 teams
+              - listitem [ref=e94] [box=144,2648,331,36]: 900,000 KZT funding
+          - article [ref=e95] [box=523,2253,395,463]:
+            - generic [ref=e96] [box=555,2285,331,147]:
+              - paragraph [ref=e97] [box=555,2285,331,20]: 30 September–3 November 2024
+              - heading [level=3] [ref=e98] [box=555,2321,331,75]:
+                - link "Youth Economics Olympiad (YEO)" [ref=e99] [cursor=pointer] [box=555,2320,227,77]:
+                  - /url: /events/youth-economics-olympiad-yeo
+              - paragraph [ref=e100] [box=555,2408,331,24]: Astana, Kazakhstan
+            - list [ref=e101] [box=555,2472,331,212]:
+              - listitem [ref=e102] [box=555,2472,331,36]: 45 cities
+              - listitem [ref=e103] [box=555,2516,331,36]: 20+ countries
+              - listitem [ref=e104] [box=555,2560,331,36]: 2,000 participants
+              - listitem [ref=e105] [box=555,2604,331,36]: 134 schools
+              - listitem [ref=e106] [box=555,2648,331,36]: 1,500,000 KZT investments
+          - article [ref=e107] [box=933,2253,395,463]:
+            - generic [ref=e108] [box=965,2285,331,147]:
+              - paragraph [ref=e109] [box=965,2285,331,20]: 1–23 August 2024
+              - heading [level=3] [ref=e110] [box=965,2321,331,75]:
+                - link "National Economics Olympiad (NEC)" [ref=e111] [cursor=pointer] [box=965,2320,262,77]:
+                  - /url: /events/national-economics-olympiad-nec
+              - paragraph [ref=e112] [box=965,2408,331,24]: Astana, Kazakhstan
+            - list [ref=e113] [box=965,2472,331,212]:
+              - listitem [ref=e114] [box=965,2472,331,36]: Kazakhstan and Kyrgyzstan
+              - listitem [ref=e115] [box=965,2516,331,36]: 14 cities
+              - listitem [ref=e116] [box=965,2560,331,36]: 500 participants
+              - listitem [ref=e117] [box=965,2604,331,36]: 50 schools
+              - listitem [ref=e118] [box=965,2648,331,36]: 1,600,000 KZT investments
+        - link "View all events" [ref=e119] [cursor=pointer] [box=112,2740,143,42]:
+          - /url: /events
+      - generic [ref=e121] [box=80,2974,1280,775]:
+        - generic [ref=e122] [box=112,2974,672,144]:
+          - heading "Student-facing offerings." [level=2] [ref=e123] [box=112,2974,672,60]
+          - paragraph [ref=e124] [box=112,3054,672,64]: Access the learning and competition resources published by QazEconomics for students.
+        - generic [ref=e125] [box=112,3158,1216,591]:
+          - article [ref=e126] [box=112,3158,600,302]:
+            - generic [ref=e127] [box=144,3190,536,238]:
+              - heading "Lessons" [level=3] [ref=e128] [box=144,3190,384,38]
+              - paragraph [ref=e129] [box=144,3290,448,56]: Grade 9 economics lessons covering foundations, markets, elasticity, production and economic agents.
+              - link "Open resource" [ref=e130] [cursor=pointer] [box=144,3408,536,20]:
+                - /url: /for-students/lessons
+          - article [ref=e131] [box=728,3158,600,302]:
+            - generic [ref=e132] [box=760,3190,536,238]:
+              - heading "Olympiad Preparation" [level=3] [ref=e133] [box=760,3190,384,38]
+              - paragraph [ref=e134] [box=760,3276,448,84]: The live site provides preparation materials for macroeconomics, microeconomics, exam style and economic theory.
+              - link "Open resource" [ref=e135] [cursor=pointer] [box=760,3408,536,20]:
+                - /url: /for-students/olympiad-preparation
+          - article [ref=e136] [box=112,3476,600,274]:
+            - generic [ref=e137] [box=144,3508,536,210]:
+              - heading "Olympiad Tracker" [level=3] [ref=e138] [box=144,3508,384,38]
+              - paragraph [ref=e139] [box=144,3593,448,56]: External links and short descriptions for AEO, IEO and the National Economics Olympiad.
+              - link "Open resource" [ref=e140] [cursor=pointer] [box=144,3697,536,20]:
+                - /url: /for-students/olympiad-tracker
+          - article [ref=e141] [box=728,3476,600,274]:
+            - generic [ref=e142] [box=760,3508,536,210]:
+              - heading "Essentials of Economics" [level=3] [ref=e143] [box=760,3508,384,38]
+              - paragraph [ref=e144] [box=760,3593,448,56]: A book covering MYP, A-Level and AP Economics for teenagers, especially students in grades 7–9.
+              - link "Open resource" [ref=e145] [cursor=pointer] [box=760,3697,536,20]:
+                - /url: /for-students/essentials-of-economics
+      - generic [ref=e147] [box=80,3941,1280,354]:
+        - generic [ref=e148] [box=112,3941,557,354]:
+          - heading "Informative, interactive and engaging." [level=2] [ref=e149] [box=112,3941,557,120]
+          - paragraph [ref=e150] [box=112,4081,557,64]: QazEconomics offers information, competitions and events to help people learn more about finance and economics.
+          - paragraph [ref=e151] [box=112,4161,557,64]: Its stated mission is to educate and empower the youth and population of Kazakhstan with finance and economics knowledge.
+          - generic [ref=e152] [box=112,4257,557,38]:
+            - generic [ref=e153] [box=112,4257,101,38]: Education
+            - generic [ref=e154] [box=225,4257,131,38]: Empowerment
+            - generic [ref=e155] [box=367,4257,119,38]: Engagement
+            - generic [ref=e156] [box=498,4257,81,38]: Impact
+        - generic [ref=e157] [box=709,3941,619,354]:
+          - heading "Team" [level=3] [ref=e158] [box=742,3974,553,28]
+          - paragraph [ref=e159] [box=742,4018,553,84]: The live site includes a team section with member profiles. Those profile details and images have not been migrated into this static implementation yet.
+      - generic [ref=e161] [box=80,4487,1280,302]:
+        - generic [ref=e162] [box=112,4487,507,302]:
+          - heading "Opportunity for volunteering." [level=2] [ref=e163] [box=112,4487,507,120]
+          - paragraph [ref=e164] [box=112,4627,507,64]: The current website invites students to fill out a form to become part of the QazEconomics team.
+        - generic [ref=e165] [box=651,4487,677,302]:
+          - generic [ref=e166] [box=684,4520,611,164]:
+            - generic [ref=e167] [box=684,4520,295,72]:
+              - text: First name
+              - textbox "First name" [ref=e168] [box=684,4548,295,44]
+            - generic [ref=e169] [box=1000,4520,295,72]:
+              - text: Last name
+              - textbox "Last name" [ref=e170] [box=1000,4548,295,44]
+            - generic [ref=e171] [box=684,4612,611,72]:
+              - text: E-Mail
+              - textbox "E-Mail" [ref=e172] [box=684,4640,611,44]
+          - button "Send" [ref=e173] [box=684,4708,91,48]
+    - contentinfo [ref=e174] [box=0,4885,1440,108]:
+      - generic [ref=e175] [box=80,4925,1280,28]:
+        - paragraph [ref=e176] [box=80,4925,121,28]: QazEconomics
+        - paragraph [ref=e177] [box=376,4929,353,20]:
+          - link "qazeconomics@gmail.com" [ref=e178] [cursor=pointer] [box=376,4930,171,18]:
+            - /url: mailto:qazeconomics@gmail.com
+          - text: · Phone +7 (702)-888-98-55
+        - navigation "Footer navigation" [ref=e179] [box=904,4929,456,20]:
+          - link "Articles" [ref=e180] [cursor=pointer] [box=904,4929,48,20]:
+            - /url: /articles
+          - link "Events" [ref=e181] [cursor=pointer] [box=973,4929,43,20]:
+            - /url: /events
+          - link "For students" [ref=e182] [cursor=pointer] [box=1036,4929,81,20]:
+            - /url: /for-students
+          - link "About us" [ref=e183] [cursor=pointer] [box=1136,4929,57,20]:
+            - /url: /about-us
+          - link "Volunteer" [ref=e184] [cursor=pointer] [box=1213,4929,62,20]:
+            - /url: /volunteer
+          - link "Instagram" [ref=e185] [cursor=pointer] [box=1295,4929,65,20]:
+            - /url: https://www.instagram.com/qazeconomics/
+  - button "Open Next.js Dev Tools" [ref=e191] [cursor=pointer] [box=22,946,32,32]
+  - alert [ref=e195] [box=-1,-1,1,1]

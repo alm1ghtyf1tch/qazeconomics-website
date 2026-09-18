@@ -1,0 +1,53 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - banner [ref=f2e3]:
+      - navigation "Main navigation" [ref=f2e4]:
+        - link "QazEconomics" [ref=f2e5] [cursor=pointer]:
+          - /url: /
+        - link "Join the team" [ref=f2e6] [cursor=pointer]:
+          - /url: /volunteer
+        - button "Open menu" [ref=f2e8]:
+          - generic [aria-hidden] [ref=f2e10]: ☰
+    - main [ref=f2e11]:
+      - article [ref=f2e12]:
+        - generic [ref=f2e13]:
+          - paragraph [ref=f2e14]: Registration closed
+          - heading "Major Economics Olympiad (MEO)" [level=1] [ref=f2e15]
+          - paragraph [ref=f2e16]: 24 July–5 August 2025 · Astana, Kazakhstan
+        - generic [ref=f2e17]:
+          - complementary [ref=f2e18]:
+            - heading "Quick facts" [level=2] [ref=f2e19]
+            - list [ref=f2e20]:
+              - listitem [ref=f2e21]: 6 countries
+              - listitem [ref=f2e22]: 19 cities
+              - listitem [ref=f2e23]: 345 participants
+              - listitem [ref=f2e24]: 104 teams
+              - listitem [ref=f2e25]: 900,000 KZT funding
+          - generic [ref=f2e26]:
+            - heading "About the event" [level=2] [ref=f2e27]
+            - paragraph [ref=f2e28]: The Major Economics Olympiad brought together young economic thinkers from six countries and 19 cities.
+            - list [ref=f2e29]:
+              - listitem [ref=f2e30]: "Round 1: online selection with multiple-choice microeconomics and macroeconomics questions."
+              - listitem [ref=f2e31]: "Round 2: an offline final where 104 teams presented solutions to a real-world business case."
+    - contentinfo [ref=f2e32]:
+      - generic [ref=f2e33]:
+        - paragraph [ref=f2e34]: QazEconomics
+        - paragraph [ref=f2e35]:
+          - link "qazeconomics@gmail.com" [ref=f2e36] [cursor=pointer]:
+            - /url: mailto:qazeconomics@gmail.com
+          - text: · Phone +7 (702)-888-98-55
+        - navigation "Footer navigation" [ref=f2e37]:
+          - link "Articles" [ref=f2e38] [cursor=pointer]:
+            - /url: /articles
+          - link "Events" [ref=f2e39] [cursor=pointer]:
+            - /url: /events
+          - link "For students" [ref=f2e40] [cursor=pointer]:
+            - /url: /for-students
+          - link "About us" [ref=f2e41] [cursor=pointer]:
+            - /url: /about-us
+          - link "Volunteer" [ref=f2e42] [cursor=pointer]:
+            - /url: /volunteer
+          - link "Instagram" [ref=f2e43] [cursor=pointer]:
+            - /url: https://www.instagram.com/qazeconomics/
+  - button "Open Next.js Dev Tools" [ref=f2e49] [cursor=pointer]
+  - alert [ref=f2e53]

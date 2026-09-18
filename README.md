@@ -1,4 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QazEconomics
+
+QazEconomics is a Next.js website for economics education, published articles,
+student resources, olympiad information and volunteering.
+
+The current implementation is a static/content-first migration of the public
+QazEconomics information architecture. It preserves links to the published
+external curriculum, PDFs, book and olympiad websites without recreating the
+original Wix authentication or form backend.
+
+## Routes
+
+- `/` — homepage entry point
+- `/articles` — article archive and category labels
+- `/articles/[slug]` — article detail pages
+- `/events` — event archive
+- `/events/[slug]` — event detail pages
+- `/for-students` — student resource hub
+- `/for-students/lessons` — Grade 9 curriculum overview
+- `/for-students/olympiad-preparation` — published preparation materials
+- `/for-students/olympiad-tracker` — external competition links
+- `/for-students/essentials-of-economics` — published book link
+- `/about-us` — organization information
+- `/volunteer` — volunteer contact form
+
+## Development
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+## Validation
+
+```bash
+npm run lint
+npm run build
+```
+
+Article bodies and team profiles that have not yet been safely migrated are
+marked explicitly in the UI rather than replaced with invented content.
 
 ## Getting Started
 

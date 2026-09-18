@@ -1,0 +1,49 @@
+- generic [active] [ref=f4e1] [box=0,0,390,1045]:
+  - generic [ref=f4e2] [box=0,0,390,1045]:
+    - banner [ref=f4e3] [box=0,0,390,65]:
+      - navigation "Main navigation" [ref=f4e4] [box=0,0,390,64]:
+        - link "QazEconomics" [ref=f4e5] [cursor=pointer] [box=16,19,121,27]:
+          - /url: /
+        - link "Join the team" [ref=f4e6] [cursor=pointer] [box=167,12,133,40]:
+          - /url: /volunteer
+        - button "Open menu" [ref=f4e8] [box=330,10,44,44]:
+          - generic [aria-hidden] [ref=f4e10] [box=343,22,18,20]: ☰
+    - main [ref=f4e11] [box=0,65,390,744]:
+      - generic [ref=f4e13] [box=0,129,390,616]:
+        - generic [ref=f4e14] [box=16,129,358,206]:
+          - heading "Opportunity for volunteering." [level=2] [ref=f4e15] [box=16,129,358,90]
+          - paragraph [ref=f4e16] [box=16,239,358,96]: The current website invites students to fill out a form to become part of the QazEconomics team.
+        - generic [ref=f4e17] [box=16,367,358,378]:
+          - generic [ref=f4e18] [box=41,392,308,256]:
+            - generic [ref=f4e19] [box=41,392,308,72]:
+              - text: First name
+              - textbox "First name" [ref=f4e20] [box=41,420,308,44]
+            - generic [ref=f4e21] [box=41,484,308,72]:
+              - text: Last name
+              - textbox "Last name" [ref=f4e22] [box=41,512,308,44]
+            - generic [ref=f4e23] [box=41,576,308,72]:
+              - text: E-Mail
+              - textbox "E-Mail" [ref=f4e24] [box=41,604,308,44]
+          - button "Send" [ref=f4e25] [box=41,672,91,48]
+    - contentinfo [ref=f4e26] [box=0,809,390,236]:
+      - generic [ref=f4e27] [box=16,849,358,156]:
+        - paragraph [ref=f4e28] [box=16,849,358,28]: QazEconomics
+        - paragraph [ref=f4e29] [box=16,901,358,20]:
+          - link "qazeconomics@gmail.com" [ref=f4e30] [cursor=pointer] [box=16,902,171,18]:
+            - /url: mailto:qazeconomics@gmail.com
+          - text: · Phone +7 (702)-888-98-55
+        - navigation "Footer navigation" [ref=f4e31] [box=16,945,358,60]:
+          - link "Articles" [ref=f4e32] [cursor=pointer] [box=16,945,48,20]:
+            - /url: /articles
+          - link "Events" [ref=f4e33] [cursor=pointer] [box=84,945,43,20]:
+            - /url: /events
+          - link "For students" [ref=f4e34] [cursor=pointer] [box=148,945,81,20]:
+            - /url: /for-students
+          - link "About us" [ref=f4e35] [cursor=pointer] [box=248,945,57,20]:
+            - /url: /about-us
+          - link "Volunteer" [ref=f4e36] [cursor=pointer] [box=16,985,62,20]:
+            - /url: /volunteer
+          - link "Instagram" [ref=f4e37] [cursor=pointer] [box=98,985,65,20]:
+            - /url: https://www.instagram.com/qazeconomics/
+  - button "Open Next.js Dev Tools" [ref=f4e43] [cursor=pointer] [box=22,790,32,32]
+  - alert [ref=f4e47] [box=-1,-1,1,1]

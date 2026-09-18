@@ -1,0 +1,121 @@
+- generic [active] [ref=f6e1]:
+  - button "Open Next.js Dev Tools" [ref=f6e186] [cursor=pointer]
+  - alert [ref=f6e198]: Articles
+  - generic [ref=f6e199]:
+    - banner [ref=f6e200]:
+      - navigation "Main navigation" [ref=f6e201]:
+        - link "QazEconomics" [ref=f6e202] [cursor=pointer]:
+          - /url: /
+        - link "Join the team" [ref=f6e203] [cursor=pointer]:
+          - /url: /volunteer
+        - button "Open menu" [ref=f6e205]:
+          - generic [aria-hidden] [ref=f6e207]: ☰
+    - main [ref=f6e208]:
+      - generic [ref=f6e210]:
+        - heading "Articles" [level=1] [ref=f6e211]
+        - paragraph [ref=f6e212]: Published QazEconomics writing across the economy of Kazakhstan, world economy and economic theory.
+      - generic [ref=f6e214]:
+        - navigation "Article categories" [ref=f6e215]:
+          - generic [ref=f6e216]: All Posts
+          - generic [ref=f6e217]: Economy of Kazakhstan
+          - generic [ref=f6e218]: World economy
+          - generic [ref=f6e219]: Economic theory
+        - generic [ref=f6e220]:
+          - link "How Does Monetary Policy Work? World economy · Diana Baizhanova · February 28, 2024 Open page" [ref=f6e221] [cursor=pointer]:
+            - /url: /articles/how-does-monetary-policy-work
+            - heading "How Does Monetary Policy Work?" [level=2] [ref=f6e222]
+            - paragraph [ref=f6e223]: World economy · Diana Baizhanova · February 28, 2024
+            - generic [ref=f6e224]: Open page
+          - link "Minimum wages are rising around the world World economy · Diana Baizhanova · February 28, 2024 Open page" [ref=f6e225] [cursor=pointer]:
+            - /url: /articles/minimum-wages-are-rising-around-the-world
+            - heading "Minimum wages are rising around the world" [level=2] [ref=f6e226]
+            - paragraph [ref=f6e227]: World economy · Diana Baizhanova · February 28, 2024
+            - generic [ref=f6e228]: Open page
+          - link "Dealing with air pollution in different countries Economic theory · Diana Baizhanova · February 1, 2024 Open page" [ref=f6e229] [cursor=pointer]:
+            - /url: /articles/dealing-with-air-pollution-in-different-countries
+            - heading "Dealing with air pollution in different countries" [level=2] [ref=f6e230]
+            - paragraph [ref=f6e231]: Economic theory · Diana Baizhanova · February 1, 2024
+            - generic [ref=f6e232]: Open page
+          - link "Inflation Soars in Kazakhstan Economy of Kazakhstan · Aiana Zhulmukhambetova · October 15, 2023 Open page" [ref=f6e233] [cursor=pointer]:
+            - /url: /articles/inflation-soars-in-kazakhstan
+            - heading "Inflation Soars in Kazakhstan" [level=2] [ref=f6e234]
+            - paragraph [ref=f6e235]: Economy of Kazakhstan · Aiana Zhulmukhambetova · October 15, 2023
+            - generic [ref=f6e236]: Open page
+          - 'link "Unveiling Kazakhstan''s Economic Transformation: A Thriving Nation at the Crossroads of Opportunity Economy of Kazakhstan · Zhangir Kuanyshev · May 28, 2023 Open page" [ref=f6e237] [cursor=pointer]':
+            - /url: /articles/unveiling-kazakhstan-s-economic-transformation-a-thriving-nation-at-the-crossroads-of-opportunity
+            - 'heading "Unveiling Kazakhstan''s Economic Transformation: A Thriving Nation at the Crossroads of Opportunity" [level=2] [ref=f6e238]'
+            - paragraph [ref=f6e239]: Economy of Kazakhstan · Zhangir Kuanyshev · May 28, 2023
+            - generic [ref=f6e240]: Open page
+          - link "The effectiveness of fiscal policy in achieving the economic growth. World economy · Zhangir Kuanyshev · May 27, 2023 Open page" [ref=f6e241] [cursor=pointer]:
+            - /url: /articles/the-effectiveness-of-fiscal-policy-in-achieving-the-economic-growth
+            - heading "The effectiveness of fiscal policy in achieving the economic growth." [level=2] [ref=f6e242]
+            - paragraph [ref=f6e243]: World economy · Zhangir Kuanyshev · May 27, 2023
+            - generic [ref=f6e244]: Open page
+          - link "Tackling Unemployment in Kazakhstan Economy of Kazakhstan · Zhamilya Akhmetova · October 14, 2023 Open page" [ref=f6e245] [cursor=pointer]:
+            - /url: /articles/tackling-unemployment-in-kazakhstan
+            - heading "Tackling Unemployment in Kazakhstan" [level=2] [ref=f6e246]
+            - paragraph [ref=f6e247]: Economy of Kazakhstan · Zhamilya Akhmetova · October 14, 2023
+            - generic [ref=f6e248]: Open page
+          - link "Closer look to income inequality in Kazakhstan Economy of Kazakhstan Open page" [ref=f6e249] [cursor=pointer]:
+            - /url: /articles/closer-look-to-income-inequality-in-kazakhstan
+            - heading "Closer look to income inequality in Kazakhstan" [level=2] [ref=f6e250]
+            - paragraph [ref=f6e251]: Economy of Kazakhstan
+            - generic [ref=f6e252]: Open page
+          - link "A Closer Look at Slower Growth Economy of Kazakhstan Open page" [ref=f6e253] [cursor=pointer]:
+            - /url: /articles/a-closer-look-at-slower-growth
+            - heading "A Closer Look at Slower Growth" [level=2] [ref=f6e254]
+            - paragraph [ref=f6e255]: Economy of Kazakhstan
+            - generic [ref=f6e256]: Open page
+          - 'link "Kazakhstan''s Quest for Economic Resilience: Diversifying Beyond Oil Economy of Kazakhstan Open page" [ref=f6e257] [cursor=pointer]':
+            - /url: /articles/kazakhstan-s-quest-for-economic-resilience-diversifying-beyond-oil
+            - 'heading "Kazakhstan''s Quest for Economic Resilience: Diversifying Beyond Oil" [level=2] [ref=f6e258]'
+            - paragraph [ref=f6e259]: Economy of Kazakhstan
+            - generic [ref=f6e260]: Open page
+          - 'link "Landlocked Wonders: Kazakhstan''s Unique Geographical Challenge Economy of Kazakhstan Open page" [ref=f6e261] [cursor=pointer]':
+            - /url: /articles/landlocked-wonders-kazakhstan-s-unique-geographical-challenge
+            - 'heading "Landlocked Wonders: Kazakhstan''s Unique Geographical Challenge" [level=2] [ref=f6e262]'
+            - paragraph [ref=f6e263]: Economy of Kazakhstan
+            - generic [ref=f6e264]: Open page
+          - link "In 2022 Norwegian State Introduced Electricity Subsidies World economy Open page" [ref=f6e265] [cursor=pointer]:
+            - /url: /articles/in-2022-norwegian-state-introduced-electicity-subsidies
+            - heading "In 2022 Norwegian State Introduced Electricity Subsidies" [level=2] [ref=f6e266]
+            - paragraph [ref=f6e267]: World economy
+            - generic [ref=f6e268]: Open page
+          - link "To Combat Obesity, the Government Imposed Taxes on Unhealthy Food Items in India World economy Open page" [ref=f6e269] [cursor=pointer]:
+            - /url: /articles/to-combat-obesity-the-government-imposed-taxes-on-unhealthy-food-items-in-india
+            - heading "To Combat Obesity, the Government Imposed Taxes on Unhealthy Food Items in India" [level=2] [ref=f6e270]
+            - paragraph [ref=f6e271]: World economy
+            - generic [ref=f6e272]: Open page
+          - link "The effect of introducing price controls on the stakeholders Economic theory Open page" [ref=f6e273] [cursor=pointer]:
+            - /url: /articles/the-effect-of-introducing-price-controls-on-the-stakeholders
+            - heading "The effect of introducing price controls on the stakeholders" [level=2] [ref=f6e274]
+            - paragraph [ref=f6e275]: Economic theory
+            - generic [ref=f6e276]: Open page
+          - 'link "Template: How to Write a Tips Blog Post Economic theory Open page" [ref=f6e277] [cursor=pointer]':
+            - /url: /articles/template-how-to-write-a-tips-blog-post
+            - 'heading "Template: How to Write a Tips Blog Post" [level=2] [ref=f6e278]'
+            - paragraph [ref=f6e279]: Economic theory
+            - generic [ref=f6e280]: Open page
+        - paragraph [ref=f6e281]: Category filtering is represented in the information architecture. The static implementation does not yet add client-side filtering.
+        - link "Back to home" [ref=f6e282] [cursor=pointer]:
+          - /url: /
+    - contentinfo [ref=f6e283]:
+      - generic [ref=f6e284]:
+        - paragraph [ref=f6e285]: QazEconomics
+        - paragraph [ref=f6e286]:
+          - link "qazeconomics@gmail.com" [ref=f6e287] [cursor=pointer]:
+            - /url: mailto:qazeconomics@gmail.com
+          - text: · Phone +7 (702)-888-98-55
+        - navigation "Footer navigation" [ref=f6e288]:
+          - link "Articles" [ref=f6e289] [cursor=pointer]:
+            - /url: /articles
+          - link "Events" [ref=f6e290] [cursor=pointer]:
+            - /url: /events
+          - link "For students" [ref=f6e291] [cursor=pointer]:
+            - /url: /for-students
+          - link "About us" [ref=f6e292] [cursor=pointer]:
+            - /url: /about-us
+          - link "Volunteer" [ref=f6e293] [cursor=pointer]:
+            - /url: /volunteer
+          - link "Instagram" [ref=f6e294] [cursor=pointer]:
+            - /url: https://www.instagram.com/qazeconomics/

@@ -1,0 +1,97 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - banner [ref=f3e3]:
+      - link "Skip to main content" [ref=f3e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - navigation "Main navigation" [ref=f3e5]:
+        - link "QazEconomics" [ref=f3e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f3e7]:
+          - link "Articles" [ref=f3e8] [cursor=pointer]:
+            - /url: /articles
+          - link "Events" [ref=f3e9] [cursor=pointer]:
+            - /url: /events
+          - link "For students" [ref=f3e10] [cursor=pointer]:
+            - /url: /for-students
+          - link "About us" [ref=f3e11] [cursor=pointer]:
+            - /url: /about-us
+          - link "Volunteer" [ref=f3e12] [cursor=pointer]:
+            - /url: /volunteer
+        - link "Join the team" [ref=f3e13] [cursor=pointer]:
+          - /url: /volunteer
+    - main [ref=f3e14]:
+      - generic [ref=f3e16]:
+        - heading "Articles" [level=1] [ref=f3e17]
+        - paragraph [ref=f3e18]: Published QazEconomics writing across the economy of Kazakhstan, world economy and economic theory.
+      - generic [ref=f3e20]:
+        - navigation "Article categories" [ref=f3e21]:
+          - link "All Posts" [ref=f3e22] [cursor=pointer]:
+            - /url: /articles
+          - link "Economy of Kazakhstan" [ref=f3e23] [cursor=pointer]:
+            - /url: /articles?category=Economy%20of%20Kazakhstan
+          - link "World economy" [ref=f3e24] [cursor=pointer]:
+            - /url: /articles?category=World%20economy
+          - link "Economic theory" [ref=f3e25] [cursor=pointer]:
+            - /url: /articles?category=Economic%20theory
+        - generic [ref=f3e26]:
+          - link "Inflation Soars in Kazakhstan Economy of Kazakhstan · Aiana Zhulmukhambetova · October 15, 2023 Open page" [ref=f3e27] [cursor=pointer]:
+            - /url: /articles/inflation-soars-in-kazakhstan
+            - heading "Inflation Soars in Kazakhstan" [level=2] [ref=f3e28]
+            - paragraph [ref=f3e29]: Economy of Kazakhstan · Aiana Zhulmukhambetova · October 15, 2023
+            - generic [ref=f3e30]: Open page
+          - 'link "Unveiling Kazakhstan''s Economic Transformation: A Thriving Nation at the Crossroads of Opportunity Economy of Kazakhstan · Zhangir Kuanyshev · May 28, 2023 Open page" [ref=f3e31] [cursor=pointer]':
+            - /url: /articles/unveiling-kazakhstan-s-economic-transformation-a-thriving-nation-at-the-crossroads-of-opportunity
+            - 'heading "Unveiling Kazakhstan''s Economic Transformation: A Thriving Nation at the Crossroads of Opportunity" [level=2] [ref=f3e32]'
+            - paragraph [ref=f3e33]: Economy of Kazakhstan · Zhangir Kuanyshev · May 28, 2023
+            - generic [ref=f3e34]: Open page
+          - link "Tackling Unemployment in Kazakhstan Economy of Kazakhstan · Zhamilya Akhmetova · October 14, 2023 Open page" [ref=f3e35] [cursor=pointer]:
+            - /url: /articles/tackling-unemployment-in-kazakhstan
+            - heading "Tackling Unemployment in Kazakhstan" [level=2] [ref=f3e36]
+            - paragraph [ref=f3e37]: Economy of Kazakhstan · Zhamilya Akhmetova · October 14, 2023
+            - generic [ref=f3e38]: Open page
+          - link "Closer look to income inequality in Kazakhstan Economy of Kazakhstan Open page" [ref=f3e39] [cursor=pointer]:
+            - /url: /articles/closer-look-to-income-inequality-in-kazakhstan
+            - heading "Closer look to income inequality in Kazakhstan" [level=2] [ref=f3e40]
+            - paragraph [ref=f3e41]: Economy of Kazakhstan
+            - generic [ref=f3e42]: Open page
+          - link "A Closer Look at Slower Growth Economy of Kazakhstan Open page" [ref=f3e43] [cursor=pointer]:
+            - /url: /articles/a-closer-look-at-slower-growth
+            - heading "A Closer Look at Slower Growth" [level=2] [ref=f3e44]
+            - paragraph [ref=f3e45]: Economy of Kazakhstan
+            - generic [ref=f3e46]: Open page
+          - 'link "Kazakhstan''s Quest for Economic Resilience: Diversifying Beyond Oil Economy of Kazakhstan Open page" [ref=f3e47] [cursor=pointer]':
+            - /url: /articles/kazakhstan-s-quest-for-economic-resilience-diversifying-beyond-oil
+            - 'heading "Kazakhstan''s Quest for Economic Resilience: Diversifying Beyond Oil" [level=2] [ref=f3e48]'
+            - paragraph [ref=f3e49]: Economy of Kazakhstan
+            - generic [ref=f3e50]: Open page
+          - 'link "Landlocked Wonders: Kazakhstan''s Unique Geographical Challenge Economy of Kazakhstan Open page" [ref=f3e51] [cursor=pointer]':
+            - /url: /articles/landlocked-wonders-kazakhstan-s-unique-geographical-challenge
+            - 'heading "Landlocked Wonders: Kazakhstan''s Unique Geographical Challenge" [level=2] [ref=f3e52]'
+            - paragraph [ref=f3e53]: Economy of Kazakhstan
+            - generic [ref=f3e54]: Open page
+        - link "Back to home" [ref=f3e55] [cursor=pointer]:
+          - /url: /
+    - contentinfo [ref=f3e56]:
+      - generic [ref=f3e57]:
+        - paragraph [ref=f3e58]: QazEconomics
+        - paragraph [ref=f3e59]:
+          - link "qazeconomics@gmail.com" [ref=f3e60] [cursor=pointer]:
+            - /url: mailto:qazeconomics@gmail.com
+          - text: · Phone
+          - link "+7 (702)-888-98-55" [ref=f3e61] [cursor=pointer]:
+            - /url: tel:+77028889855
+        - navigation "Footer navigation" [ref=f3e62]:
+          - link "Articles" [ref=f3e63] [cursor=pointer]:
+            - /url: /articles
+          - link "Events" [ref=f3e64] [cursor=pointer]:
+            - /url: /events
+          - link "For students" [ref=f3e65] [cursor=pointer]:
+            - /url: /for-students
+          - link "About us" [ref=f3e66] [cursor=pointer]:
+            - /url: /about-us
+          - link "Volunteer" [ref=f3e67] [cursor=pointer]:
+            - /url: /volunteer
+          - link "Instagram" [ref=f3e68] [cursor=pointer]:
+            - /url: https://www.instagram.com/qazeconomics/
+  - button "Open Next.js Dev Tools" [ref=f3e74] [cursor=pointer]
+  - alert [ref=f3e78]
