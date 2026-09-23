@@ -1,27 +1,30 @@
 import Link from "next/link";
-import { events } from "../_lib/content";
+import { publishedContent } from "@/lib/cms/queries";
+import { accentClasses, eventStatusLabels } from "@/lib/cms/schema";
 
-export function Events() {
+export async function Events() {
+  const events = (await publishedContent("olympiad,event")).slice(0, 3);
+  if (!events.length) return null;
   return (
     <section id="events" className="bg-white py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <h2 className="text-4xl font-semibold leading-tight tracking-[-0.045em] text-[var(--ink)] sm:text-5xl">
-            Completed economics events.
+            Economics events and olympiads.
           </h2>
           <p className="mt-5 text-lg leading-8 text-[var(--slate)]">
-            Explore the published archive of QazEconomics olympiads and their
-            historical event information.
+            Explore student competitions, upcoming opportunities and the
+            QazEconomics event archive.
           </p>
         </div>
         <div className="mt-10 grid gap-4 lg:grid-cols-3">
           {events.slice(0, 3).map((event) => (
             <article
               key={event.title}
-              className={`${event.className} flex min-h-[360px] flex-col justify-between rounded-[32px] p-7 text-white sm:p-8`}
+              className={`${accentClasses[event.accent]} flex min-h-[360px] flex-col justify-between rounded-[32px] p-7 text-white sm:p-8`}
             >
               <div>
-                <p className="text-sm font-semibold text-white/80">{event.date}</p>
+                <p className="text-sm font-semibold text-white">{eventStatusLabels[event.event_status]} / {event.date_label}</p>
                 <h3 className="mt-4 text-3xl font-semibold leading-tight tracking-[-0.04em]"><Link href={`/events/${event.slug}`} className="hover:underline">{event.title}</Link></h3>
                 <p className="mt-3 text-base text-white/80">{event.location}</p>
               </div>

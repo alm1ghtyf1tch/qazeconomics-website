@@ -5,15 +5,17 @@ import { PageShell } from "../../_components/page-shell";
 
 export const dynamic = "force-dynamic";
 
-export default async function EventPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function PostPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
-  const [event] = await publishedContent("olympiad,event", slug);
-
-  if (!event) notFound();
-
+  const [post] = await publishedContent("post", slug);
+  if (!post) notFound();
   return (
     <PageShell>
-      <ContentDetail item={event} />
+      <ContentDetail item={post} />
     </PageShell>
   );
 }

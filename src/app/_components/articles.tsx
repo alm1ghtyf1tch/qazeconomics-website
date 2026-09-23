@@ -1,7 +1,9 @@
 import Link from "next/link";
-import { articles } from "../_lib/content";
+import { publishedContent } from "@/lib/cms/queries";
 
-export function Articles() {
+export async function Articles() {
+  const articles = (await publishedContent("article")).slice(0, 4);
+  if (!articles.length) return null;
   return (
     <section id="articles" className="bg-[var(--surface)] py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -15,7 +17,7 @@ export function Articles() {
           </p>
         </div>
         <div className="mt-10 rounded-[24px] border border-[var(--hairline)] bg-white">
-          {articles.slice(0, 4).map((article, index) => (
+          {articles.map((article, index) => (
             <article
               key={article.title}
               className={`grid gap-4 p-6 sm:grid-cols-[1fr_180px] sm:p-7 ${
@@ -35,7 +37,7 @@ export function Articles() {
                 </h3>
               </div>
               <p className="text-sm leading-6 text-[var(--steel)] sm:text-right">
-                {article.author ?? "Author information not migrated"}
+                {article.author}
               </p>
             </article>
           ))}

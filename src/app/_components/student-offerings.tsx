@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { studentResources } from "../_lib/content";
+import { publishedContent } from "@/lib/cms/queries";
 
-export function StudentOfferings() {
+export async function StudentOfferings() {
+  const resources = [...(await publishedContent("resource")).map((item) => ({ slug: item.slug, title: item.title, description: item.summary, href: `/resources/${item.slug}` })), ...studentResources];
   return (
     <section id="students" className="bg-white py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -15,7 +17,7 @@ export function StudentOfferings() {
           </p>
         </div>
         <div className="mt-10 grid gap-4 lg:grid-cols-2">
-          {studentResources.map((resource) => (
+          {resources.slice(0, 4).map((resource) => (
             <article
               key={resource.slug}
               className="min-h-64 rounded-[32px] bg-[var(--surface)] p-7 sm:p-8"
@@ -32,6 +34,7 @@ export function StudentOfferings() {
             </article>
           ))}
         </div>
+        <Link href="/for-students" className="mt-6 inline-block text-sm font-semibold text-[var(--brand-blue-deep)]">All student resources</Link>
       </div>
     </section>
   );

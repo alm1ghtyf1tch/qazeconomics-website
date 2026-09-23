@@ -1,8 +1,0 @@
-[    9993ms] [WARNING] react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour. @ https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js:1
-[   11272ms] [WARNING] react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour. @ https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js:1
-[   11299ms] [WARNING] react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour. @ https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js:1
-[   20496ms] [WARNING] react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour. @ https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js:1
-[   20969ms] Transition was aborted because of invalid state. ViewTransition opt-in disabled
-[   23928ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://sentry-next.wixpress.com/api/68/envelope/?sentry_key=605a7baede844d278b89dc95ae0a9123&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.3:0
-[   25800ms] [WARNING] react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour. @ https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js:1
-[   29406ms] [WARNING] The resource https://static.parastorage.com/services/communities-blog-ooi/1.3314.0/BlogViewerWidget.bundle.min.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.qazeconomics.com/articles:0

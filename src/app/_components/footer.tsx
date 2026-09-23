@@ -17,10 +17,12 @@ export function Footer() {
         <nav aria-label="Footer navigation" className="flex flex-wrap gap-5">
           {[
             ["Articles", "/articles"],
+            ["Updates", "/posts"],
             ["Events", "/events"],
             ["For students", "/for-students"],
             ["About us", "/about-us"],
             ["Volunteer", "/volunteer"],
+            ["Admin", "/admin"],
           ].map(([item, href]) => (
             <Link
               key={href}

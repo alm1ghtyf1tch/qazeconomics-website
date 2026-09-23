@@ -3,10 +3,14 @@
 QazEconomics is a Next.js website for economics education, published articles,
 student resources, olympiad information and volunteering.
 
-The current implementation is a static/content-first migration of the public
-QazEconomics information architecture. It preserves links to the published
-external curriculum, PDFs, book and olympiad websites without recreating the
-original Wix authentication or form backend.
+The site supports Supabase-backed content management at `/admin`, with approved
+admin accounts and draft, published and archived entries. Follow
+[Admin Setup](docs/ADMIN_SETUP.md) to connect a project, import the existing
+archive and create the first admin account. Without configuration, the public
+site displays the existing archive and admin sign-in remains disabled.
+
+Published external curriculum, PDF, book and olympiad links are preserved. The
+original Wix member accounts and volunteer form backend are not migrated.
 
 ## Routes
 
@@ -22,6 +26,11 @@ original Wix authentication or form backend.
 - `/for-students/essentials-of-economics` — published book link
 - `/about-us` — organization information
 - `/volunteer` — volunteer contact form
+- `/admin` — protected content management workspace
+- `/admin/new` — create content
+- `/admin/[id]` — edit, publish or archive an entry
+- `/posts` and `/posts/[slug]` — organization updates
+- `/resources/[slug]` — newly published student resources
 
 ## Development
 
@@ -36,10 +45,16 @@ Open [http://localhost:3000](http://localhost:3000).
 ```bash
 npm run lint
 npm run build
+npm run test
+npm run test:e2e
 ```
 
 Article bodies and team profiles that have not yet been safely migrated are
 marked explicitly in the UI rather than replaced with invented content.
+
+The browser tests use an isolated Supabase HTTP simulator on port 54329 and a
+Next.js dev server on port 3100. Stop an existing dev server for this checkout
+before running them. Database policy tests run against embedded PostgreSQL.
 
 ## Getting Started
 

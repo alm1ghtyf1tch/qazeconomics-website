@@ -1,6 +1,9 @@
 import Link from "next/link";
-import { articles, articleCategories } from "../_lib/content";
+import { articleCategories } from "../_lib/content";
+import { publishedContent } from "@/lib/cms/queries";
 import { CardLink, PageIntro, PageShell } from "../_components/page-shell";
+
+export const dynamic = "force-dynamic";
 
 export default async function ArticlesPage({
   searchParams,
@@ -8,7 +11,9 @@ export default async function ArticlesPage({
   searchParams: Promise<{ category?: string }>;
 }) {
   const { category } = await searchParams;
-  const selectedCategory = category && articleCategories.includes(category) ? category : "All Posts";
+  const articles = await publishedContent("article");
+  const categories = [...new Set([...articleCategories, ...articles.map((article) => article.category).filter(Boolean)])];
+  const selectedCategory = category && categories.includes(category) ? category : "All Posts";
   const visibleArticles = selectedCategory === "All Posts"
     ? articles
     : articles.filter((article) => article.category === selectedCategory);
@@ -22,7 +27,7 @@ export default async function ArticlesPage({
       <section className="bg-[var(--surface)] py-12 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <nav aria-label="Article categories" className="flex flex-wrap gap-2">
-            {articleCategories.map((category) => (
+            {categories.map((category) => (
               <Link
                 key={category}
                 href={category === "All Posts" ? "/articles" : `/articles?category=${encodeURIComponent(category)}`}
@@ -39,7 +44,7 @@ export default async function ArticlesPage({
                 key={article.slug}
                 href={`/articles/${article.slug}`}
                 title={article.title}
-                description={`${article.category}${article.author ? ` · ${article.author}` : ""}${article.date ? ` · ${article.date}` : ""}`}
+                description={[article.category, article.author, article.date_label].filter(Boolean).join(" / ")}
               />
             ))}
           </div>

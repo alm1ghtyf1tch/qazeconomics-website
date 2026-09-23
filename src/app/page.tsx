@@ -6,6 +6,9 @@ import { Header } from "./_components/header";
 import { Hero } from "./_components/hero";
 import { StudentOfferings } from "./_components/student-offerings";
 import { Volunteer } from "./_components/volunteer";
+import { Posts } from "./_components/posts";
+
+export const dynamic = "force-dynamic";
 
 export default function Home() {
   return (
@@ -14,6 +17,7 @@ export default function Home() {
       <main id="main-content" className="scroll-mt-20">
         <Hero />
         <Articles />
+        <Posts />
         <Events />
         <StudentOfferings />
         <About />
